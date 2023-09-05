@@ -1,6 +1,7 @@
-#pragma once // prevents multiple definitions
+// Copyright [2023] <Italo Portinho>
+#pragma once  // prevents multiple definitions
 
-#include <iostream> // print library
+#include <iostream>  // print library
 
 // Exercise 1: implements function 'add', that adds two numbers
 int add(int a, int b);
@@ -11,13 +12,11 @@ int mul(int a, int b);
 // ===============
 // implementations
 
-int add(int a, int b)
-{
-   return 0; // TODO: fix
+int add(int a, int b) {
+  return a+b;
 }
 
 // Exercise 2: implements function 'mul', that multiplies two numbers
-int mul(int a, int b)
-{
-   return 0; // TODO: fix
+int mul(int a, int b) {
+  return a * b;
 }
